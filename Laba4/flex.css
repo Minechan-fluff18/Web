@@ -1,0 +1,56 @@
+div{
+    font-family: monospace;
+    font-stretch: condensed;
+    font-size: xx-large;
+    color: rgb(230, 176, 230);
+    text-align: center;
+}
+
+
+.flex{
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: purple;
+    width: 35%;
+    height: 25%;
+}
+
+.box2{
+    background-color: rgb(136, 29, 136);
+    width: 20%;
+    height: 25%;
+}
+
+.box3{
+    background-color: rgb(141, 51, 153);
+    width: 45%;
+    height: 25%;
+}
+
+.box4{
+    background-color: rgb(60, 0, 128);
+    width: 25%;
+    height: 25%;
+}
+
+.box5{
+    background-color: rgb(83, 20, 155);
+    width: 75%;
+    height: 25%;
+}
+
+.box6{
+    background-color: rgb(22, 20, 155);
+    width: 85%;
+    height: 25%;
+}
+
+.box7{
+    background-color: rgb(20, 52, 155);
+    width: 15%;
+    height: 25%;
+}

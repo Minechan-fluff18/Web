@@ -1,0 +1,18 @@
+.rectangle {
+    width: 350px;
+    height: 150px;
+    background: blue;
+}
+
+div{
+    transition: transform 3s;
+    animation-timing-function: linear;
+}
+div:hover{
+    transform: scale(0.2);
+}
+
+body{
+    padding: 50px;
+    background-color: black;
+}

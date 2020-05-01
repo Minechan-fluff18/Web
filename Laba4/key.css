@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-name: color;
+    animation-duration: 1.25s;
+}
+
+@keyframes color{
+    0%{background-color: red;}
+    3%{background-color: orangered;}
+    50%{background-color: yellow;}
+    97%{background-color: blue;}
+    100%{background-color: red;}
+}
+
+body{
+    padding: 50px;
+    background-color: black;
+}
